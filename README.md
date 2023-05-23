@@ -1,2 +1,5 @@
-# web-420
-Assignments for Web-420
+# WEB 420 RESTful APIs 
+Assignments for WEB-420
+## Contributors
+* Professor Richard Krasso
+* Hannah Del Real
