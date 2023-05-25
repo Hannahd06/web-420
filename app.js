@@ -1,3 +1,12 @@
+/*
+============================================
+; Title:  app.js
+; Author: Professor Krasso
+; Modified by: Hannah Del Real
+; Date:   22 April 2023
+; Description: App.js file in WEB 420 RESTful APIs Repository
+;===========================================
+*/
 const express = require('express');
 const http = require('http');
 const swaggerUI = require('swagger-ui-express');
