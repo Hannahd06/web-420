@@ -1,9 +1,9 @@
 /*
 ============================================
-; Title:  delreal-composer-routes.js
+; Title:  delreal-person-routes.js
 ; Author: Hannah Del Real
-; Date:   14 June 2023
-; Description: Composer Schema routes
+; Date:   21 June 2023
+; Description: Person Schema routes
 ;===========================================
 */
 
