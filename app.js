@@ -28,9 +28,11 @@ app.use(express.urlencoded({ extended: true }));
 // Set up the routing for /api endpoints
 const composerAPI =  require('./routes/delreal-composer-routes');
 const personAPI = require('./routes/delreal-person-routes');
+const userAPI = require('./routes/delreal-session-routes');
 
 app.use('/api', composerAPI);
 app.use('/api', personAPI);
+app.use('/api', userAPI);
 
 // Connect to MongoDB
 const conn = 'mongodb+srv://web420_user:s3cret@bellevueuniversity.ozktyyu.mongodb.net/web420DB?retryWrites=true&w=majority';
