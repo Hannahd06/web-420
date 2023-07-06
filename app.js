@@ -29,10 +29,12 @@ app.use(express.urlencoded({ extended: true }));
 const composerAPI =  require('./routes/delreal-composer-routes');
 const personAPI = require('./routes/delreal-person-routes');
 const userAPI = require('./routes/delreal-session-routes');
+const customerAPI = require('./routes/delreal-node-shopper-routes');
 
 app.use('/api', composerAPI);
 app.use('/api', personAPI);
 app.use('/api', userAPI);
+app.use('/api', customerAPI);
 
 // Connect to MongoDB
 const conn = 'mongodb+srv://web420_user:s3cret@bellevueuniversity.ozktyyu.mongodb.net/web420DB?retryWrites=true&w=majority';
